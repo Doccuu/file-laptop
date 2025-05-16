@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #000000;
+}
+
+.sign {
+    display: flex;
+    gap: 30px;
+}
+
+.signIn {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.signUp {
+    width: 150px;
+    height: 45px;
+    color: #F53855;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.signUp:hover {
+    background-color: #F53855;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.firstBlock {
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+
+h1 {
+    color: #0B132A;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+h2 {
+    color: #0B132A;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #4F5665;
+    font-weight: 400;
+}
+
+.textFB {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: baseline;
+}
+
+span {
+    font-weight: 700;
+}
+
+.BigRedBut {
+    background-color: #F53838;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 30px 30px 10px #F5383859;
+    font-size: 16px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BigRedBut:hover {
+    transition: 0.4s;
+    background-color: #ff0000;
+}
+
+.firstDawnBlock {
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    background-color: #FFF;
+    box-shadow: 0px 35px 50px 0px #0d10254d;
+}
+
+.infoDawnBlock {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.allInfoDawnBlock {
+    display: flex;
+    gap: 15vw;
+
+}
+
+.galochki {
+    display: flex;
+    gap: 15px;
+}
+
+.secondBlock {
+
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    height: 760px;
+    width: 330px;
+    background-color: #fff;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.titleCard {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.boxCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+li {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.ButCard {
+    width: 180px;
+    height: 45px;
+    color: #F53855;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.ButCard:hover {
+    background-color: #F53838;
+    color: #fff;
+    transition: 0.4s;
+    box-shadow: 0px 15px 50px 10px #F5383859;
+}
+
+.liCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.allCard {
+    display: flex;
+    gap: 50px;
+}
+
+g {
+    color: #4F5665;
+}
+
+.centerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+}
+
+.thirdBlock {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+}
+
+
+.comment {
+    padding: 20px;
+    width: 380px;
+    height: 210px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ratingComment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userComment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+
+
+}
+
+.nameUserComment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.textComment {
+    color: #0B132A;
+    font-size: 16px;
+    line-height: 1.5
+}
+
+.commentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.allComment {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.commentDot {
+    background-color: #DDE0E4;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
+
+.allDot {
+    display: flex;
+    gap: 20px;
+}
+
+.arrow {
+    color: #F53838;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.arrow:hover {
+    background-color: #F53838;
+    color: #fff;
+}
+
+.swipeComment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.listComment {
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.subscribeBlock {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #F8F8F8;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+
+.textSubscribe {
+    width: 1040px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.allLinkFooter {
+    display: flex;
+    gap: 150px;
+}
+
+.linkFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.leftFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.header {
+        flex-direction :column ; /* Изменение направления на колонку */
+        align-items:center ; /* Центрирование элементов по оси Y */
+}
+    
+.firstBlock {
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-top :80px ; /* Уменьшение отступа */
+        margin-bottom :80px ; /* Уменьшение отступа */
+        gap :5% ; /* Уменьшение промежутка между элементами */
+        flex-direction :column ; /* Изменение направления на колонку */
+}
+    
+.secondBlock, .thirdBlock, .commentSection, .subscribeBlock, footer {  
+       padding-top :80 px ;
+       padding-bottom :80 px ;
+}
+    
+.card {
+        height :600px ; /* Уменьшение высоты карточки */
+        width :300px ; /* Уменьшение ширины карточки */
+}
+    
+.titleCard, .price {  
+       font-size :20 px ; /* Увеличение размера шрифта заголовка карточки и цены */
+}
+    
+.commentSection {  
+       padding-left :20% ; /* Увеличение отступа слева для секции комментариев */
+       padding-right :20% ; /* Увеличение отступа справа для секции комментариев */
+}
+    
+.textSubscribe {  
+       width:auto ;
+       height:auto ;
+       gap:auto ;
+}
+    
+.allLinkFooter {  
+       gap:auto ;
+}
+    
+.linkFooter {  
+       gap:auto ;
+}
+    
+.leftFooter {  
+       gap:auto ;
+}
+}
