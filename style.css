@@ -47,7 +47,7 @@ nav {
 a {
     text-decoration: none;
     color: #000;
-   
+
 }
 
 .but {
@@ -72,10 +72,9 @@ a {
 
 .infoFirst {
     display: flex;
-
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 h1 {
@@ -251,29 +250,30 @@ footer {
     gap: 20px;
 }
 
-.repairFB{
+.repairFB {
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.repairFB > img{
+.repairFB>img {
     width: 600px;
 }
 
-.textTitle{
+.textTitle {
     display: flex;
     gap: 15px;
     flex-direction: column;
+    align-items: center;
 }
 
-.titleRepairCard{
+.titleRepairCard {
     font-size: 18px;
     font-weight: 500;
 }
 
-.repairCard{
+.repairCard {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -282,7 +282,7 @@ footer {
     padding: 20px;
 }
 
-.descriptionInfoRepairCard{
+.descriptionInfoRepairCard {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,26 +292,26 @@ footer {
     border-radius: 10px;
 }
 
-.infoRepairCard{
+.infoRepairCard {
     display: flex;
     justify-content: space-between;
 }
 
-.upAllRepairCard{
+.upAllRepairCard {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
 
-.allRepairCard{
+.allRepairCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 
-.repairSB{
+.repairSB {
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -319,7 +319,7 @@ footer {
     gap: 50px;
 }
 
-.repairTB{
+.repairTB {
     align-items: center;
     padding: 50px;
     display: flex;
@@ -328,13 +328,115 @@ footer {
     gap: 50px;
 }
 
-.repairTB > div > img{
+.repairTB>div>img {
     width: 15%;
 }
 
-.repairTB > div {
+.repairTB>div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.newsFB {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.newsSB {
+    padding: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.newsSB>div {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.newsSB>div>img {
+    width: 350px;
+    height: 200px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.newsCard {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding-bottom: 15px;
+}
+
+.newsCard>img {
+    width: 400px;
+}
+
+.newsAllCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    header {
+        gap: 100px;
+    }
+
+
+    .navBar {
+        justify-content: space-around;
+
+    }
+
+    .firstBlock {
+   
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .infoFirst {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .firstBlock>.infoFirst>img {
+        width: 600px;
+        height: 600px;
+    }
+
+    h2 {
+        color: #49464F;
+        font-size: 40px;
+    }
+
+
 }
